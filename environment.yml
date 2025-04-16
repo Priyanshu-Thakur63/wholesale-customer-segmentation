@@ -1,4 +1,13 @@
+name: customer_segmentation
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - scikit-learn
+  - matplotlib
 
+  
 You’ll get back the predicted cluster and its average profile.
 
 ---
